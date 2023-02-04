@@ -1,0 +1,195 @@
+:root {
+    --primary-clr-text: #434455;
+    --secondary-clr-text: #2E2F42;
+    --blue-clr: #4D5AE5;
+    --action-clr: #404BBF;
+    --write-logo-footer: #F4F4FD;
+    --primary-write: #FFFFFF;
+    --write-text-footer: #E7E9FC;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-clr-text);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-clr-text);
+}
+
+.logo-first {
+    color: var(--blue-clr);
+}
+
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--write-logo-footer);
+}
+
+/* ========HEADER======== */
+.menu-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--secondary-clr-text);
+}
+
+.menu-item:hover,
+.menu-item:focus {
+    color: var(--action-clr);
+}
+
+.contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primary-clr-text);
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--action-clr);
+}
+
+.hero {
+    background: var(--secondary-clr-text);
+}
+
+.hero-text {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: var(--primary-write);
+}
+
+.hero-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--primary-write);
+    background-color: var(--blue-clr);
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--action-clr);
+}
+
+/* Section strategy */
+.strategy-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--secondary-clr-text);
+}
+
+/* OUR WORKS */
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    color: var(--secondary-clr-text);
+    text-transform: capitalize;
+}
+
+/* Specialists */
+.team-section {
+    background-color: var(--write-logo-footer);
+}
+
+.name-specialist {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--secondary-clr-text);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--secondary-clr-text);
+}
+
+.text-footer {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--write-text-footer);
+}
+
+/*================== Page PORTFOLIO ======================= */
+
+.buton-filter {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--blue-clr);
+    background-color: var(--write-logo-footer);
+    cursor: pointer;
+}
+
+.buton-filter:hover,
+.buton-filter:focus {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-write);
+    background-color: var(--action-clr);
+}
+
+.project-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--secondary-clr-text);
+}
+
+.type-project {
+    color: var(--primary-clr-text);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
