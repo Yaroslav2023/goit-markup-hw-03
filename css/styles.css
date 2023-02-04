@@ -9,6 +9,28 @@
 
 }
 
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+img {
+    display: flex;
+}
+
+.container {
+    width: 1128px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -104,6 +126,39 @@ body {
 .hero-button:hover,
 .hero-button:focus {
     background-color: var(--action-clr);
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.header-wrap {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    justify-content: space-between;
+}
+
+.menu-list-wrap {
+    display: flex;
+    width: 261px;
+    justify-content: space-between;
+}
+
+.nav-address {
+    display: flex;
+}
+
+.address-wrap {
+    display: flex;
+}
+
+.nav-logo {
+    margin-right: 76px;
+}
+
+.mail-addres {
+    margin-right: 40px;
 }
 
 /* Section strategy */
