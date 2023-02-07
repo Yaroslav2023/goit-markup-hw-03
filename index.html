@@ -35,7 +35,7 @@
             <li><a href="" class="link menu-item">Contacts</a></li>
           </ul>
         </nav>
-        <address class="nav-address">
+        <address>
           <ul class="list address-wrap">
             <li>
               <a
@@ -55,45 +55,49 @@
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-text">Effective Solutions for Your Business</h1>
-        <button type="button" class="hero-button">Order Service</button>
+        <div class="container hero-wrap">
+          <h1 class="hero-text">Effective Solutions for Your Business</h1>
+          <button type="button" class="hero-button">Order Service</button>
+        </div>
       </section>
       <section class="strategy-company">
-        <h2 class="visually-hidden">Strategy our company</h2>
-        <ul class="list">
-          <li>
-            <h3 class="strategy-title">Strategy</h3>
-            <p class="strategy-text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="strategy-title">Punctuality</h3>
-            <p class="strategy-text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="strategy-title">Diligence</h3>
-            <p class="strategy-text">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="strategy-title">Technologies</h3>
-            <p class="strategy-text">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+        <div class="container strategy-wrap">
+          <h2 class="visually-hidden">Strategy our company</h2>
+          <ul class="list strategy-items">
+            <li class="item">
+              <h3 class="strategy-title">Strategy</h3>
+              <p class="strategy-text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="strategy-title">Punctuality</h3>
+              <p class="strategy-text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="strategy-title">Diligence</h3>
+              <p class="strategy-text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="strategy-title">Technologies</h3>
+              <p class="strategy-text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="works">
+      <section class="works container">
         <h2 class="title">What are we doing</h2>
-        <ul class="list">
+        <ul class="list work-items">
           <li>
             <img
               src="./images/work1.jpg"
@@ -121,59 +125,71 @@
         </ul>
       </section>
       <section class="team-section">
-        <h2 class="title">Our Team</h2>
-        <ul class="list">
-          <li>
-            <img
-              src="./images/mark-guerrero.jpg"
-              alt="Photo Mark Guerrero"
-              width="264"
-              height="260"
-            />
-            <h3 class="name-specialist">Mark Guerrero</h3>
-            <p>Product Designer</p>
-          </li>
-          <li>
-            <img
-              src="./images/tom-ford.jpg"
-              alt="Photo Tom Ford"
-              width="264"
-              height="260"
-            />
-            <h3 class="name-specialist">Tom Ford</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="./images/camila-garcia.jpg"
-              alt="Photo Camila Garcia"
-              width="264"
-              height="260"
-            />
-            <h3 class="name-specialist">Camila Garcia</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/daniel-wilson.jpg"
-              alt="Photo Daniel Wilson"
-              width="264"
-              height="260"
-            />
-            <h3 class="name-specialist">Daniel Wilson</h3>
-            <p>UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="title workers-title">Our Team</h2>
+          <ul class="list workers-items">
+            <li>
+              <div class="specialist-wrap">
+                <img
+                  src="./images/mark-guerrero.jpg"
+                  alt="Photo Mark Guerrero"
+                  width="264"
+                  height="260"
+                />
+                <h3 class="name-specialist">Mark Guerrero</h3>
+                <p class="work-profession">Product Designer</p>
+              </div>
+            </li>
+            <li>
+              <div class="specialist-wrap">
+                <img
+                  src="./images/tom-ford.jpg"
+                  alt="Photo Tom Ford"
+                  width="264"
+                  height="260"
+                />
+                <h3 class="name-specialist">Tom Ford</h3>
+                <p class="work-profession">Frontend Developer</p>
+              </div>
+            </li>
+            <li>
+              <div class="specialist-wrap">
+                <img
+                  src="./images/camila-garcia.jpg"
+                  alt="Photo Camila Garcia"
+                  width="264"
+                  height="260"
+                />
+                <h3 class="name-specialist">Camila Garcia</h3>
+                <p class="work-profession">Marketing</p>
+              </div>
+            </li>
+            <li>
+              <div class="specialist-wrap">
+                <img
+                  src="./images/daniel-wilson.jpg"
+                  alt="Photo Daniel Wilson"
+                  width="264"
+                  height="260"
+                />
+                <h3 class="name-specialist">Daniel Wilson</h3>
+                <p class="work-profession">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="link logo-footer"
-        ><span class="logo-first">Web</span>Studio</a
-      >
-      <p class="text-footer">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <a href="./index.html" class="link logo-footer"
+          ><span class="logo-first">Web</span>Studio</a
+        >
+        <p class="text-footer">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
