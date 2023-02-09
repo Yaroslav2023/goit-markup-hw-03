@@ -25,7 +25,7 @@ img {
 }
 
 .container {
-    width: 1128px;
+    width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
@@ -115,8 +115,7 @@ body {
 
 .menu-list-wrap {
     display: flex;
-    width: 261px;
-    justify-content: space-between;
+    gap: 40px;
 }
 
 .address-wrap {
@@ -135,7 +134,8 @@ body {
 
 .hero {
     background: var(--secondary-clr-text);
-
+    padding-top: 188px;
+    padding-bottom: 188px;
     display: flex;
 }
 
@@ -147,8 +147,7 @@ body {
     text-align: center;
     color: var(--primary-write);
 
-    padding-top: 260px;
-    padding-bottom: 46px;
+    margin-bottom: 46px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -163,7 +162,6 @@ body {
     background-color: var(--blue-clr);
     border-radius: 4px;
     cursor: pointer;
-    margin-bottom: 188px;
     display: flex;
     margin-right: auto;
     margin-left: auto;
@@ -187,11 +185,14 @@ body {
     margin-bottom: 8px;
 }
 
+.strategy-company {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .strategy-items {
     display: flex;
-    margin-top: 120px;
-    margin-bottom: 120px;
-    justify-content: space-between;
+    gap: 24px;
 }
 
 .strategy-items .item {
@@ -209,10 +210,13 @@ body {
     margin-bottom: 72px;
 }
 
+.works {
+    padding-bottom: 120px;
+}
+
 .work-items {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 120px;
+    gap: 24px;
 }
 
 
