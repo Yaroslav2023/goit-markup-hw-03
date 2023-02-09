@@ -29,7 +29,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
-    box-sizing: content-box;
 }
 
 body {
@@ -223,6 +222,8 @@ body {
 /* =======================Specialists =======================*/
 .team-section {
     background-color: var(--write-logo-footer);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .name-specialist {
@@ -238,31 +239,32 @@ body {
 
 .work-profession {
     text-align: center;
-    padding-bottom: 32px;
+
 }
 
 .workers-title {
     display: block;
-    padding-top: 120px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .workers-items {
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
 }
 
 .specialist-wrap {
     background-color: var(--primary-write);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    margin-bottom: 120px;
+    padding-bottom: 32px;
 }
 
 /* ================Footer================== */
 .footer {
     background-color: var(--secondary-clr-text);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .text-footer {
@@ -272,7 +274,6 @@ body {
     color: var(--write-text-footer);
 
     width: 264px;
-    padding-bottom: 100px;
     margin-right: auto;
 }
 
@@ -284,14 +285,16 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--write-logo-footer);
-
     display: inline-block;
-    padding-top: 100px;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 /*================== Page PORTFOLIO ======================= */
 
+.portfolio-wrap {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 
 .buton-filter {
     font-family: inherit;
@@ -325,15 +328,11 @@ body {
     line-height: 1.2;
     color: var(--secondary-clr-text);
 
-    padding-left: 16px;
-    padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .type-project {
     color: var(--primary-clr-text);
-    padding-left: 16px;
-    padding-bottom: 32px;
 }
 
 .visually-hidden {
@@ -351,12 +350,9 @@ body {
 
 .portfolio-filter {
     display: flex;
-    width: 586px;
-    justify-content: space-between;
-    margin-top: 96px;
+    justify-content: center;
+    gap: 24px;
     margin-bottom: 72px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .portfolio-items {
@@ -374,11 +370,11 @@ body {
     margin-right: 0px;
 }
 
-.work-example:nth-last-child(-n + 3) {
-    margin-bottom: 120px;
-}
 
 .work-example-descr {
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     border-left: 1px solid var(--write-text-footer);
     border-right: 1px solid var(--write-text-footer);
     border-bottom: 1px solid var(--write-text-footer);
